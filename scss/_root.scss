@@ -1,0 +1,25 @@
+/*SECTION LINE*/
+
+hr.section__line, hr.footer__line{
+	background-color: #3e618c;
+	height: 3px;
+	width: 100%;
+}
+
+hr.footer__line{
+	height: 0px;
+}
+
+/*FONT*/
+
+.article__title{
+	text-shadow: 5px 5px 5px #aaa;
+}
+
+p{
+	font-size: 1.4rem;
+}
+
+p.copyright{
+	font-size: 1rem;
+}
