@@ -1,25 +1,25 @@
 /*SECTION LINE*/
 
-hr.section__line, hr.footer__line{
-	background-color: #3e618c;
+hr{
+	.section__line, .footer__line{
+	background-color: $colorPrincipal;
 	height: 3px;
 	width: 100%;
-}
-
-hr.footer__line{
-	height: 0px;
+	}
+	.footer__line{
+	height: 0px
+	}
 }
 
 /*FONT*/
 
 .article__title{
-	text-shadow: 5px 5px 5px #aaa;
+	text-shadow: $shadowTitle;
 }
 
 p{
 	font-size: 1.4rem;
-}
-
-p.copyright{
-	font-size: 1rem;
+	.copyright{
+		font-size: 1rem;
+	}
 }
