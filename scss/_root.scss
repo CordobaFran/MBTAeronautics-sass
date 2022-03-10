@@ -1,15 +1,13 @@
 /*SECTION LINE*/
 
-hr{
-	.section__line, .footer__line{
-	background-color: $colorPrincipal;
-	height: 3px;
-	width: 100%;
+.section__line{
+	border-top: 2px solid $colorPrincipal;
 	}
-	.footer__line{
-	height: 0px
+
+.footer__line{
+	border-top: 1px solid gray;
+	width: 100%
 	}
-}
 
 /*FONT*/
 
@@ -19,7 +17,8 @@ hr{
 
 p{
 	font-size: 1.4rem;
-	.copyright{
-		font-size: 1rem;
-	}
+}
+
+.copyright{
+	font-size: 0.8rem;
 }
