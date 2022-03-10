@@ -48,6 +48,9 @@ nav {
 .navbar-light .navbar-nav .show > .nav-link {
   color: #fff; }
 
+.dropdown-menu.show {
+  background-color: #3e618c; }
+
 .dropdown-item {
   color: #fff;
   background-color: #3e618c; }

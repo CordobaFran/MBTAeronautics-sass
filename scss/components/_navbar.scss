@@ -38,6 +38,9 @@ nav{
 		color: $navbarText;
 	}
 }
+.dropdown-menu.show {
+    background-color: $colorPrincipal;
+}
 
 .dropdown-item{
 		color: $navbarText;
