@@ -1,7 +1,7 @@
 /*SECTION LINE*/
 
 .section__line{
-	border-top: 2px solid $colorPrincipal;
+	border-top: 2px solid map-get($colores, principal);
 	}
 
 .footer__line{
@@ -15,10 +15,13 @@
 	text-shadow: $shadowTitle;
 }
 
-p{
+p{	color: black;
+	text-align: center;
 	font-size: 1.4rem;
 }
 
 .copyright{
+	@extend p;
 	font-size: 0.8rem;
 }
+

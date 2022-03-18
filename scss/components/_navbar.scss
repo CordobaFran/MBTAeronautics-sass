@@ -15,43 +15,43 @@
 }
 
 nav{
-	background-image: $navbarColor;
+	background-image: map-get($colores, navbarColor);
 	box-shadow: $shadow;
 	z-index: 2;
 }
 
 .navbar-light .navbar-nav{
 	.nav-link{
-		color: $navbarText;
+		color: map-get($colores, navbarText);
 			&:hover{
-				color: $navbarText;
+				color: map-get($colores, navbarText);
 			}
 	}
 	.nav-link.active{
-				color: $navbarText;
+				color: map-get($colores, navbarText);
 	   			background-color: #00000000;
 			    border-color: #dee2e6 #dee2e6 #fff;
 			    font-weight: bold;
 	}
 
 	.show>.nav-link{
-		color: $navbarText;
+		color: map-get($colores, navbarText);
 	}
 }
 .dropdown-menu.show {
-    background-color: $colorPrincipal;
+    background-color: map-get($colores, principal);
 }
 
 .dropdown-item{
-		color: $navbarText;
-		background-color: $colorPrincipal;
+		color: map-get($colores, navbarText);
+		background-color: map-get($colores, principal);
 	}
 
 .nav-tabs{
 	.nav-item.show .nav-link{
-		background-color: $colorPrincipal;
+		background-color: map-get($colores, principal);
 	}
 	.nav-link.active{
-		background-color: $colorPrincipal;
+		background-color: map-get($colores, principal);
 	}
 }
